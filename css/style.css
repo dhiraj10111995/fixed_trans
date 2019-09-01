@@ -6,7 +6,6 @@
   width: 100%;
   overflow: hidden;
 }
-
 header video {
   position: absolute;
   top: 50%;
@@ -21,12 +20,10 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
 header .container {
   position: relative;
   z-index: 2;
 }
-
 header .overlay {
   position: absolute;
   top: 0;
@@ -36,8 +33,7 @@ header .overlay {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
-}
-
+} 
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -47,6 +43,9 @@ header .overlay {
   }
 }*/
     /* CSS used here will be applied after bootstrap.css */
+.sec1{
+  background-color: brown;
+}
 .jumbotron{
   position: relative;
   z-index:-1;
@@ -66,3 +65,4 @@ header .overlay {
   position: fixed;
   top:block;
 }
+
